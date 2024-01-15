@@ -8,6 +8,7 @@
     Бот вычислит прибыль и отправит ее обратно.
 
 Вот пример кода бота на Python, использующего библиотеку python-telegram-bot:
+
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 import logging
